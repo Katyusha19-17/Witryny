@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <CheckBox
+        android:id="@+id/CHBPieczywo10"
+        android:layout_width="120dp"
+        android:layout_height="61dp"
+        android:text="Chleb wieloziarnisty"
+        android:textColor="#FFC107"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.964" />
+
+    <CheckBox
+        android:id="@+id/CHBPieczywo9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rogal"
+        android:textColor="#FFC107"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.848"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.875" />
+
+    <CheckBox
+        android:id="@+id/CHBPieczywo8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crosant"
+        android:textColor="#FFC107"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.881"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.805" />
+
+    <CheckBox
+        android:id="@+id/CHBPieczywo7"
+        android:layout_width="115dp"
+        android:layout_height="45dp"
+        android:text="Bagietka czonskowa"
+        android:textColor="#FFC107"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.979"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.736" />
+
+    <CheckBox
+        android:id="@+id/CHBPieczywo6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bagietka"
+        android:textColor="#FFC107"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.898"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.669" />
+
+    <CheckBox
+        android:id="@+id/CHBPieczywo5"
+        android:layout_width="95dp"
+        android:layout_height="44dp"
+        android:text="Bułka pszenna"
+        android:textColor="#FFC107"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.917"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.601" />
+
+    <CheckBox
+        android:id="@+id/CHBPieczywo4"
+        android:layout_width="106dp"
+        android:layout_height="48dp"
+        android:text="Bułka kajzerka"
+        android:textColor="#FFC107"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.534" />
+
+    <CheckBox
+        android:id="@+id/CHBPieczywo3"
+        android:layout_width="109dp"
+        android:layout_height="46dp"
+        android:text="Bułka grachamka"
+        android:textColor="#FFC107"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.963"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.465" />
+
+    <CheckBox
+        android:id="@+id/CHBPieczywo2"
+        android:layout_width="114dp"
+        android:layout_height="47dp"
+        android:text="Chleb pszenny"
+        android:textColor="#FFC107"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.979"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.397" />
+
+    <CheckBox
+        android:id="@+id/CHBPieczywo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chleb żytni"
+        android:textColor="#FFC107"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.935"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.327" />
+
+    <CheckBox
+        android:id="@+id/CHBWedliny10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gotowana"
+        android:textColor="#FF0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.96" />
+
+    <CheckBox
+        android:id="@+id/CHBWedliny9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Polska"
+        android:textColor="#FF0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.471"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.89" />
+
+    <CheckBox
+        android:id="@+id/CHBWedliny8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Konserwowa"
+        android:textColor="#FF0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.819" />
+
+    <CheckBox
+        android:id="@+id/CHBWedliny7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eksportowa"
+        android:textColor="#FF0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.749" />
+
+    <CheckBox
+        android:id="@+id/CHBWedliny6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tyrolska"
+        android:textColor="#FF0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.679" />
+
+    <CheckBox
+        android:id="@+id/CHBWedliny5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Śląska"
+        android:textColor="#FF0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.471"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.609" />
+
+    <CheckBox
+        android:id="@+id/CHBWedliny4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Biała"
+        android:textColor="#FF0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.456"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.538" />
+
+    <CheckBox
+        android:id="@+id/CHBWedliny2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Krakowska"
+        android:textColor="#FF0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.398" />
+
+    <CheckBox
+        android:id="@+id/CHBWedliny3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Myśliwska"
+        android:textColor="#FF0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.468" />
+
+    <CheckBox
+        android:id="@+id/CHBWarzywa10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Burak"
+        android:textColor="#03A9F4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.96" />
+
+    <CheckBox
+        android:id="@+id/CHBWarzywa9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Czosnek"
+        android:textColor="#03A9F4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.89" />
+
+    <CheckBox
+        android:id="@+id/CHBWarzywa8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cebula"
+        android:textColor="#03A9F4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.819" />
+
+    <CheckBox
+        android:id="@+id/CHBWarzywa7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kapusta"
+        android:textColor="#03A9F4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.749" />
+
+    <CheckBox
+        android:id="@+id/CHBWarzywa6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sałata"
+        android:textColor="#03A9F4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.679" />
+
+    <CheckBox
+        android:id="@+id/CHBWarzywa5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kalafior"
+        android:textColor="#03A9F4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.609" />
+
+    <CheckBox
+        android:id="@+id/CHBWarzywa4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seler"
+        android:textColor="#03A9F4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.538" />
+
+    <CheckBox
+        android:id="@+id/CHBWarzywa3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ziemniak"
+        android:textColor="#03A9F4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.468" />
+
+    <CheckBox
+        android:id="@+id/CHBWarzywa2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pietruszka"
+        android:textColor="#03A9F4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.398" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="135dp"
+        android:layout_height="81dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024">
+
+        <RadioButton
+            android:id="@+id/radioButtonTrybDodawania"
+            android:layout_width="133dp"
+            android:layout_height="40dp"
+            android:text="Tryb dodawania"
+            android:visibility="visible"
+            tools:text="Tryb dodawania" />
+
+        <RadioButton
+            android:id="@+id/radioButtonTrybListy"
+            android:layout_width="133dp"
+            android:layout_height="40dp"
+            android:clickable="true"
+            android:text="Tryb listy"
+            android:visibility="visible"
+            tools:text="Tryb Listy" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/Pieczywo"
+        android:layout_width="92dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Pieczywo"
+        android:textColor="#FFC107"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.909"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.244" />
+
+    <TextView
+        android:id="@+id/Warzywa"
+        android:layout_width="92dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Warzywa"
+        android:textColor="#03A9F4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.244" />
+
+    <TextView
+        android:id="@+id/Wedliny"
+        android:layout_width="92dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Wędliny"
+        android:textColor="#FF0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.244" />
+
+    <CheckBox
+        android:id="@+id/CHBWarzywa1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Marchew"
+        android:textColor="#03A9F4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.327" />
+
+    <CheckBox
+        android:id="@+id/CHBWedliny1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salami"
+        android:textColor="#FF0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.327" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
